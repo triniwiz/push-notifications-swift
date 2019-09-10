@@ -41,7 +41,7 @@ import Foundation
     )
 
     // The object that acts as the delegate of push notifications.
-    public weak var delegate: InterestsChangedDelegate?
+    @obj public weak var delegate: InterestsChangedDelegate?
 
     private var startHasBeenCalledThisSession = false
 
